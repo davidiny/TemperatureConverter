@@ -12,6 +12,9 @@
 		3011470A23242B220052617B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3011470823242B220052617B /* Main.storyboard */; };
 		3011470C23242B240052617B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3011470B23242B240052617B /* Assets.xcassets */; };
 		3011470F23242B240052617B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3011470D23242B240052617B /* LaunchScreen.storyboard */; };
+		3011471723242B3E0052617B /* TempConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3011471623242B3E0052617B /* TempConverter.swift */; };
+		30B65A502329B059005AF624 /* daniel-ramirez-q4TfWtnz_xw-unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 30B65A4F2329B059005AF624 /* daniel-ramirez-q4TfWtnz_xw-unsplash.jpg */; };
+		30F587B123271DB90059DF6F /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F587B023271DB90059DF6F /* AboutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		3011470B23242B240052617B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3011470E23242B240052617B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3011471023242B240052617B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3011471623242B3E0052617B /* TempConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempConverter.swift; sourceTree = "<group>"; };
+		30B65A4F2329B059005AF624 /* daniel-ramirez-q4TfWtnz_xw-unsplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "daniel-ramirez-q4TfWtnz_xw-unsplash.jpg"; path = "../../../../Downloads/daniel-ramirez-q4TfWtnz_xw-unsplash.jpg"; sourceTree = "<group>"; };
+		30F587B023271DB90059DF6F /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +60,15 @@
 		3011470323242B220052617B /* TempConverterApp */ = {
 			isa = PBXGroup;
 			children = (
+				30B65A4F2329B059005AF624 /* daniel-ramirez-q4TfWtnz_xw-unsplash.jpg */,
 				3011470423242B220052617B /* AppDelegate.swift */,
 				3011470623242B220052617B /* ViewController.swift */,
 				3011470823242B220052617B /* Main.storyboard */,
 				3011470B23242B240052617B /* Assets.xcassets */,
 				3011470D23242B240052617B /* LaunchScreen.storyboard */,
 				3011471023242B240052617B /* Info.plist */,
+				3011471623242B3E0052617B /* TempConverter.swift */,
+				30F587B023271DB90059DF6F /* AboutViewController.swift */,
 			);
 			path = TempConverterApp;
 			sourceTree = "<group>";
@@ -124,6 +133,7 @@
 			files = (
 				3011470F23242B240052617B /* LaunchScreen.storyboard in Resources */,
 				3011470C23242B240052617B /* Assets.xcassets in Resources */,
+				30B65A502329B059005AF624 /* daniel-ramirez-q4TfWtnz_xw-unsplash.jpg in Resources */,
 				3011470A23242B220052617B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,7 +145,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3011471723242B3E0052617B /* TempConverter.swift in Sources */,
 				3011470723242B220052617B /* ViewController.swift in Sources */,
+				30F587B123271DB90059DF6F /* AboutViewController.swift in Sources */,
 				3011470523242B220052617B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
